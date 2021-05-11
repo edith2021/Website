@@ -2,22 +2,21 @@ body {
     background: white;
     font-family: Arial;
     text-align: center;
-    margin: 0px;
+    margin: 0;
 }
 
-.navbar .static-bar {
+.navibar .static-bar {
     float: left;
 }
 
-.navbar {
+.navibar {
     overflow: auto;
     background-color: #dedede;
     font-size: 17px;
     width: 100%;
 }
 
-
-.navbar a {
+.navibar a {
     float: right;
     font-weight:bold;
     color: black;
@@ -25,17 +24,18 @@ body {
     text-decoration: none;
 }
 
-.navbar a:hover{
+.navibar a:hover{
     background-color: #6e6e6e;
 }
-
-.small-bio{
-    width: auto;
-    height: 10%;
-    padding:10%;
-    background-color: #dedede;
+.container{
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 30px;
 }
 
-
-
-
+.card {
+    margin-left:7%;
+    margin-right: 7%;
+    margin-bottom: 10%;
+    display:inline-block;
+}

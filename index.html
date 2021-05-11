@@ -1,27 +1,81 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
-        <title>Ethan Dith</title>
-        <link rel="stylesheet" href="/index.css">
-        <link rel="icon" href="/logo.png">
-        
-    </head>
-    
-    <body>
-        <!-- Navbar -->
-           <div class="navbar">
-                <a class="static-bar" href="https://www.ethandith.com" title="Home">Ethan Dith</a>
-                <a href="contact.html"> Contact</a>
-                <a href="portfolio.html"> Portfolio </a>
-                <a href="about.html"> About Me </a>
-            </div> 
-        
-        
-        <!-- Webpage -->
-        <div class="small-bio">
-            <img scr="bob.png" alt="Picture of Me" class="mephoto" >
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="icon" href="/logo.png">
+    <title>Ethan Dith</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navibar">
+        <a class="static-bar" href="https://www.ethandith.com" title="Home">Ethan Dith</a>
+        <a href="contact.html" title="Contact Me"> Contact</a>
+        <a href="portfolio.html" title="My Portfolio"> Portfolio </a>
+        <a href="about.html" title="All about me"> About Me </a>
+    </div>
+
+
+    <!-- Webpage -->
+    <div class="container" style=" background-color: #e3e3e3;max-width: 100%;">
+        <div class="row">
+            <div class="col-sm-4" style=" margin-bottom: 2%;">
+                <h2>Ethan Dith</h2>
+                <img src="bob.png" alt="me" title="A photo of me">
+            </div>
+            <div class="col-sm-8">
+                <h2 style="color:white;">About Me</h2>
+                <p>Some text..</p>
+            </div>
         </div>
-    </body>
-    
+
+    </div>
+    <div class="three-cards">
+        <h1>Portfolio</h1>
+        <div class="card" style="width: 20rem;">
+            <img src="bob.png" class="card-img-top" alt="PortfolioItem1" title="Portfolio Item 1">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+            </div>
+        </div>
+
+        <div class="card" style=" width: 20rem;">
+            <img src="bob.png" class="card-img-bottom" alt="PortfolioItem2" title="Portfolio Item 2">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+            </div>
+
+
+        </div>
+        <div class="card" style=" width: 20rem;">
+            <img src="bob.png" class="card-img-bottom" alt="PortfolioItem3" title="Portfolio Item 3">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Footer-->
+    <div class="d-flex flex-row-reverse" style="background-color: #e3e3e3; vertical-align: 15px;">
+        <div class="p-1" style="font-size: 10px;">ETHAN DITH 2021</div>
+    </div>
+</body>
+
 </html>
