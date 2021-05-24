@@ -2,40 +2,12 @@ body {
     background: white;
     font-family: Arial;
     text-align: center;
-    margin: 0;
 }
 
-.navibar .static-bar {
-    float: left;
-}
-
-.navibar {
-    overflow: auto;
-    background-color: #dedede;
-    font-size: 17px;
-    width: 100%;
-}
-
-.navibar a {
-    float: right;
-    font-weight:bold;
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.navibar a:hover{
-    background-color: #6e6e6e;
-}
-.container{
+.jumbotron{
     font-weight: bolder;
     text-transform: uppercase;
     font-size: 30px;
-    max-width: max-content;
-}
-
-.three-cards{
-    width: 100%;
 }
 
 .card {
