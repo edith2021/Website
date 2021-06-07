@@ -6,7 +6,7 @@ body {
 }
 
 .parallax {
-    background-image: url("bck.JPG");
+    background-image: url("bck.jpg");
     min-height: 650px;
     background-attachment: fixed;
     background-position: center;
@@ -16,7 +16,7 @@ body {
 }
 
 .para {
-    background-image: url("bck2.JPG");
+    background-image: url("bck2.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
