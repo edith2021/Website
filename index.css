@@ -4,6 +4,24 @@ body {
     text-align: center;
 }
 
+.parallax {
+    background-image: url("bck.JPG");
+    min-height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.para {
+    background-image: url("bck2.JPG");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 .jumbotron{
     font-weight: bolder;
     text-transform: uppercase;
@@ -15,4 +33,16 @@ body {
     margin-right: 5%;
     margin-bottom: 10%;
     display:inline-block;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+
+}
+
+a:hover{
+    text-decoration: none;
+    color:black;
+
 }
